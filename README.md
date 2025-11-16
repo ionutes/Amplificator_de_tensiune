@@ -53,3 +53,8 @@ Etapele următoare vor fi adăugate pe parcurs:
 
 ---
 
+## ✍️ Autor
+Proiect realizat de **Dragotoniu Ionuț-Constantin**  
+Facultatea de Electronică, Telecomunicații și Tehnologia Informației – UPB  
+Grupa 431C • An universitar 2025–2026
+
