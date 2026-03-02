@@ -1,0 +1,13 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Dec 02 16:49:39 2025
+\t (00:00:00)         Host=LAPTOP-IONUTES User=Ionu? Pid=5756 CPUs=12
+\t (00:00:00) CmdLine= padstack_editor -mpssession Ionu? -file ./#Taaaaaw10128.tmp -pname SMD50_36 -data C:/Users/drago/AppData/Local/Temp/#Taaaaay10128.tmp
+\t (00:00:00) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:04) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:04) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:13) QtSignal GuidedMaskLayersTab PadWidth editingFinished 1.2700
+\d (00:00:21) QtSignal GuidedMaskLayersTab PadHeight editingFinished 0.9140
+\d (00:00:21) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\d (00:00:23) QtSignal MainWindow UpdateToDesignExit triggered
+\t (00:00:23)     Journal end - Tue Dec 02 16:50:02 2025

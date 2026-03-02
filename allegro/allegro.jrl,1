@@ -1,0 +1,144 @@
+\t (00:17:53) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:17:53)     Journal start - Fri Jan 09 16:22:51 2026
+\t (00:17:53)         Host=LAPTOP-IONUTES User=Ionu? Pid=23088 CPUs=12
+\t (00:17:53) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:17:53) 
+\d (00:17:53) Design opened: C:/Users/drago/Desktop/Facultate/P1_CEF_Dragotoniu_Ionut-Constantin_431C/P1_CEF_Dragotoniu_Ionut-Constantin_431C/Fisiere PCB/allegro/P1-CEF-DRAGOTONIU.brd
+\i (00:17:53) generaledit 
+\i (00:17:54) zoom in 1 
+\i (00:17:54) setwindow pcb
+\i (00:17:54) zoom in 28.9123 18.9317
+\i (00:17:54) trapsize 2785
+\i (00:17:54) roam start
+\i (00:17:54) roam y 112
+\i (00:17:54) roam y 48
+\i (00:17:54) roam y 48
+\i (00:17:54) roam y 48
+\i (00:17:55) roam end
+\i (00:17:55) roam start
+\i (00:17:56) roam end
+\i (00:17:56) zoom in 1 
+\i (00:17:56) setwindow pcb
+\i (00:17:56) zoom in 25.5702 12.4142
+\i (00:17:56) trapsize 1393
+\i (00:17:57) zoom out 1 
+\i (00:17:57) setwindow pcb
+\i (00:17:57) zoom out 22.9522 10.4925
+\i (00:17:57) trapsize 2785
+\i (00:17:59) zoom in 1 
+\i (00:17:59) setwindow pcb
+\i (00:17:59) zoom in 28.4668 12.4421
+\i (00:17:59) trapsize 1393
+\i (00:18:01) zoom out 1 
+\i (00:18:01) setwindow pcb
+\i (00:18:01) zoom out 31.4190 11.2167
+\i (00:18:01) trapsize 2785
+\i (00:18:02) roam start
+\i (00:18:02) roam y -80
+\i (00:18:02) roam y -48
+\i (00:18:03) roam y -16
+\i (00:18:03) roam y -16
+\i (00:18:03) roam x 16
+\i (00:18:03) roam y 32
+\i (00:18:03) roam y 16
+\i (00:18:03) roam y 16
+\i (00:18:03) roam y 16
+\i (00:18:03) roam y 16
+\i (00:18:03) roam end
+\i (00:18:05) roam start
+\i (00:18:05) roam x -16
+\i (00:18:05) roam x -16
+\i (00:18:05) roam y -16
+\i (00:18:05) roam end
+\t (00:18:05) Pick to complete the window.
+\i (00:18:06) zoom in 1 
+\i (00:18:06) setwindow pcb
+\i (00:18:06) zoom in 18.1172 15.7564
+\i (00:18:06) trapsize 1393
+\i (00:18:07) zoom out 1 
+\i (00:18:07) setwindow pcb
+\i (00:18:07) zoom out 18.4793 15.6451
+\i (00:18:07) trapsize 2785
+\i (00:18:07) pick 22.0443 14.9209
+\t (00:18:07) last pick:  22.0443 14.9209
+\i (00:18:07) setwindow pcb
+\i (00:18:07) zoom previous
+\i (00:18:07) trapsize 1393
+\i (00:18:08) zoom out 1 
+\i (00:18:08) setwindow pcb
+\i (00:18:08) zoom out 25.2193 14.8374
+\i (00:18:08) trapsize 2785
+\i (00:18:09) roam start
+\i (00:18:09) roam x -80
+\i (00:18:09) roam y -48
+\i (00:18:09) roam x -48
+\i (00:18:09) roam y -48
+\i (00:18:09) roam x -16
+\i (00:18:09) roam y -16
+\i (00:18:10) roam x -16
+\i (00:18:10) roam x -16
+\i (00:18:10) roam y -16
+\i (00:18:10) roam x 16
+\i (00:18:10) roam y 32
+\i (00:18:10) roam x 96
+\i (00:18:10) roam y 96
+\i (00:18:10) roam x 48
+\i (00:18:10) roam y 48
+\i (00:18:10) roam end
+\t (00:18:10) Pick to complete the window.
+\i (00:18:11) zoom center
+\i (00:18:11) pick 23.6875 13.3055
+\t (00:18:11) Pick to complete the window.
+\i (00:18:13) pick 19.3705 24.2511
+\t (00:18:13) last pick:  19.3705 24.2511
+\i (00:18:13) setwindow pcb
+\i (00:18:13) zoom points
+\i (00:18:13) pick 25.0522 13.5004
+\i (00:18:13) pick -0.6924 24.2511
+\i (00:18:13) trapsize 839
+\t (00:18:14) Pick to complete the window.
+\i (00:18:15) zoom points
+\i (00:18:15) pick 15.7607 19.9911
+\i (00:18:15) pick 20.3393 21.9031
+\i (00:18:15) trapsize 149
+\i (00:18:16) zoom out 1 
+\i (00:18:16) setwindow pcb
+\i (00:18:16) zoom out 18.4423 21.2409
+\i (00:18:16) trapsize 298
+\i (00:18:16) zoom out 1 
+\i (00:18:16) setwindow pcb
+\i (00:18:16) zoom out 18.4423 21.2350
+\i (00:18:16) trapsize 597
+\i (00:18:16) zoom out 1 
+\i (00:18:16) setwindow pcb
+\i (00:18:16) zoom out 18.9553 19.8986
+\i (00:18:16) trapsize 1193
+\i (00:18:17) roam start
+\i (00:18:17) roam x 48
+\i (00:18:17) roam y 208
+\i (00:18:17) roam x 16
+\i (00:18:17) roam y 48
+\i (00:18:18) roam end
+\i (00:18:18) zoom out 1 
+\i (00:18:18) setwindow pcb
+\i (00:18:18) zoom out 22.9510 12.2943
+\i (00:18:18) trapsize 2386
+\i (00:18:18) roam start
+\i (00:18:19) roam x 96
+\i (00:18:19) roam y 48
+\i (00:18:19) roam x 48
+\i (00:18:19) roam y 32
+\i (00:18:19) roam x 16
+\i (00:18:19) roam end
+\i (00:18:20) pick grid 33.0450 8.6671
+\t (00:18:20) last pick:  33.0750 8.6400
+\i (00:18:20) prepopup 33.0450 8.6671
+\i (00:18:22) pop dyn_option_select 'Modify design padstack@:@All instances' 
+\i (00:18:22) mod padstack 
+\i (00:19:54) generaledit 
+\i (00:19:56) open 
+\i (00:20:00) fillin "C:\Users\drago\Desktop\PCB_RADU.brd"
+\i (00:20:00) cd "C:\Users\drago\Desktop"
+\t (00:20:00) Opening existing design...
+\i (00:20:00) trapsize 2703
+\t (00:20:00)     Journal end - Fri Jan 09 16:24:58 2026

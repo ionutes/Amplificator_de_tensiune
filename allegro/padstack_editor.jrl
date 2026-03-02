@@ -1,0 +1,24 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Jan 09 16:23:20 2026
+\t (00:00:00)         Host=LAPTOP-IONUTES User=Ionu? Pid=14864 CPUs=12
+\t (00:00:00) CmdLine= padstack_editor -mpssession Ionu? -file ./#Taaaaaz23088.tmp -pname VIA -data C:/Users/drago/AppData/Local/Temp/#Taaaabb23088.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:01:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:23) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:01:24) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:01:25) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:01:27) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:01:27) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:01:28) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:01:28) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:29) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\t (00:01:31)     Journal end - Fri Jan 09 16:24:52 2026

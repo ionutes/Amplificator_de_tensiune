@@ -1,0 +1,79 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : PROIECT1.brd                                  )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Tue Dec 02 16:30:17 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < FAB >
+     TO FILE < C:/Users/drago/Desktop/Proiect 1/allegro/FAB.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (0.0000 0.0000)
+           ... ignored.
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: 0 width line found at (1.3500 70.9800)
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: text composed 0 width line found at (12.7673 72.5675)
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.15000                                  DARK 
+
+     FAB created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        FAB created with warnings
+
+ ARTWORK had warnings
