@@ -1,0 +1,453 @@
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "AC-Simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\drago\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 200 10 100Meg
+.TEMP 0 20 70 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT1_TEST3
+V_V1         VAC 0 DC 0Vdc AC 100mVac 
+R_R1         0 VAC  150k TC=0,0 
+V_VEE         0 VEE 12Vdc
+R_R2         VEE N002520  68 TC=0,0 
+R_R3         VEE N08317  68 TC=0,0 
+R_R4         N00563 N005260  10 TC=0,0 
+R_R5         VEE N00563  10 TC=0,0 
+R_R6         N00755 N00813  68 TC=0,0 
+R_R7         N00697 N00813  68 TC=0,0 
+R_R8         N00956 VCC  330 TC=0,0 
+R_R9         N01096 VCC  68 TC=0,0 
+R_R10         N01615 N01200  100 TC=0,0 
+R_R11         N01664 N01615  100 TC=0,0 
+R_R12         N01726 N01808  2k TC=0,0 
+R_R13         N01808 VOUT  1k TC=0,0 
+R_R15         0 VOUT  10 TC=0,0 
+D_D1         VCC N03391 D1N4148_1 
+D_D2         N03391 N03379 D1N4148_1 
+Q_Q1         N00813 N03379 N00956 BC856_1 
+Q_Q2         N01200 N03379 N01096 BC856_1 
+Q_Q3         VEE N01664 VOUT BC856_1 
+Q_Q5         N00393 VAC N00697 BC856_1 
+Q_Q6         N00310 N00310 N08317 BC846_1 
+Q_Q7         N00393 N00310 N002520 BC846_1 
+Q_Q8         N01664 N00393 N005260 BC846_1 
+Q_Q10         N01200 N19945 N01664 BC846_1 
+R_R14         0 N01726  1k TC=0,0 
+Q_Q13         VCC N01200 VOUT BC846_1 
+Q_Q14         N00310 N01726 N00755 BC856_1 
+V_VCC         VCC 0 12Vdc
+R_R17         N01615 N19945  1k TC=0,0 
+C_C1         N00393 N01664  100p  TC=0,0 
+R_R18         N24266 N03379  33 TC=0,0 
+R_R19         N24278 N24266  100 TC=0,0 
+R_R23         N24278 N248370  100 TC=0,0 
+R_R24         N248370 0  100 TC=0,0 
+
+**** RESUMING AC-Simulare.cir ****
+.END
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148_1       
+          IS    2.682000E-09 
+           N    1.836        
+         ISR    1.565000E-09 
+         IKF     .04417      
+          BV  100            
+         IBV  100.000000E-06 
+          RS     .5664       
+          TT   11.540000E-09 
+         CJO    4.000000E-12 
+          VJ     .5          
+           M     .3333       
+
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC856_1         BC846_1         
+               PNP             NPN             
+       LEVEL    1               1            
+          IS   28.000000E-15   45.000000E-15 
+          BF  284.436         516.544        
+          NF    1               1.01         
+         VAF   43              74            
+         IKF     .38             .708        
+         ISE   24.903000E-15   55.668000E-15 
+          NE    2.234           2.567        
+          BR    4.8             7.745        
+          NR    1.005           1.015        
+         VAR    6.96           14            
+         IKR     .932           1            
+         ISC  125.000000E-15    1.084000E-12 
+          NC    2.074           4.063        
+         ISS    0               0            
+          RB    2.2             9            
+         RBM    1.5             4.5          
+         IRB  100.000000E-06  100.000000E-06 
+          RE     .3              .35         
+          RC    2.251           1.445        
+         CJE   11.800000E-12   13.050000E-12 
+         VJE    1                .69         
+         MJE     .435            .375        
+         CJC    8.700000E-12    4.100000E-12 
+         VJC     .9              .75         
+         MJC     .6              .42         
+        XCJC     .65             .65         
+         CJS    0               0            
+         VJS     .75             .75         
+          FC     .75             .75         
+          TF  600.000000E-12  620.000000E-12 
+         XTF    6.5            68            
+         VTF    2               1            
+         ITF     .314            .72         
+         PTF    1               1            
+          TR    2.604000E-09    2.500000E-09 
+         XTB    1.6             1.4          
+         XTI    3.3             3.2          
+          KF    5.000000E-15   10.000000E-15 
+          AF    1               1            
+          CN    2.2             2.42         
+           D     .52             .87         
+
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  D1N4148_1                  
+
+         IS        2.281E-10  
+         VJ        5.690E-01  
+        CJO        3.802E-12  
+         RS        5.664E-01  
+        IKF        4.417E-02  
+         BV        1.000E+02  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856_1        BC846_1    
+
+         BF        2.446E+02      4.527E+02  
+        ISE        3.772E-15      1.082E-14  
+        VJE        1.024E+00      7.419E-01  
+        CJE        1.162E-11      1.263E-11  
+         RE        3.000E-01      3.500E-01  
+         RB        2.200E+00      9.000E+00  
+         BR        4.128E+00      6.787E+00  
+        ISC        1.618E-14      4.043E-13  
+        VJC        9.330E-01      7.965E-01  
+        CJC        8.452E-12      3.975E-12  
+         RC        2.251E+00      1.445E+00  
+        RBM        1.500E+00      4.500E+00  
+         IS        2.949E-16      4.785E-16  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.965E-01      7.965E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VAC)    0.0000  (  VCC)   12.0000  (  VEE)  -12.0000  ( VOUT)    -.0072      
+
+(N00310)  -11.2180 (N00393)  -10.9880 (N00563)  -11.8640 (N00697)     .6851     
+
+(N00755)     .6867 (N00813)     .7849 (N00956)   11.0360 (N01096)   11.0760     
+
+(N01200)     .7267 (N01615)    -.0101 (N01664)    -.7454 (N01726)     .0020     
+
+(N01808)    -.0041 (N03379)   10.3330 (N03391)   11.1670 (N08317)  -11.9020     
+
+(N19945)    -.0244 (N24266)    9.3091 (N24278)    6.2060 (N002520)  -11.9020    
+
+(N005260)  -11.7280                   (N248370)    3.1030                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         5.183E-06
+    V_VEE       -2.833E-02
+    V_VCC       -5.865E-02
+
+    TOTAL POWER DISSIPATION   1.04E+00  WATTS
+
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   20.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  D1N4148_1                  
+
+         IS        1.477E-09  
+         VJ        5.180E-01  
+        CJO        3.948E-12  
+         RS        5.664E-01  
+        IKF        4.417E-02  
+         BV        1.000E+02  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856_1        BC846_1    
+
+         BF        2.739E+02      4.998E+02  
+        ISE        1.579E-14      3.748E-14  
+        VJE        1.006E+00      7.036E-01  
+        CJE        1.175E-11      1.294E-11  
+         RE        3.000E-01      3.500E-01  
+         RB        2.200E+00      9.000E+00  
+         BR        4.622E+00      7.493E+00  
+        ISC        7.628E-14      8.546E-13  
+        VJC        9.087E-01      7.622E-01  
+        CJC        8.635E-12      4.067E-12  
+         RC        2.251E+00      1.445E+00  
+        RBM        1.500E+00      4.500E+00  
+         IS        9.296E-15      1.497E-14  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.622E-01      7.622E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   20.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VAC)    0.0000  (  VCC)   12.0000  (  VEE)  -12.0000  ( VOUT)    -.0060      
+
+(N00310)  -11.2570 (N00393)  -11.0290 (N00563)  -11.8670 (N00697)     .6475     
+
+(N00755)     .6489 (N00813)     .7454 (N00956)   11.0530 (N01096)   11.0960     
+
+(N01200)     .6913 (N01615)    -.0092 (N01664)    -.7084 (N01726)     .0018     
+
+(N01808)    -.0034 (N03379)   10.3870 (N03391)   11.1940 (N08317)  -11.9040     
+
+(N19945)    -.0223 (N24266)    9.3576 (N24278)    6.2384 (N002520)  -11.9040    
+
+(N005260)  -11.7340                   (N248370)    3.1192                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         4.520E-06
+    V_VEE       -2.711E-02
+    V_VCC       -5.771E-02
+
+    TOTAL POWER DISSIPATION   1.02E+00  WATTS
+
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  D1N4148_1                  
+
+         IS        6.245E-08  
+         VJ        3.880E-01  
+        CJO        4.322E-12  
+         RS        5.664E-01  
+        IKF        4.417E-02  
+         BV        1.000E+02  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   BC856_1        BC846_1    
+
+         BF        3.524E+02      6.230E+02  
+        ISE        2.720E-13      4.431E-13  
+        VJE        9.596E-01      6.052E-01  
+        CJE        1.210E-11      1.374E-11  
+         RE        3.000E-01      3.500E-01  
+         RB        2.200E+00      9.000E+00  
+         BR        5.947E+00      9.342E+00  
+        ISC        1.669E-12      3.752E-12  
+        VJC        8.453E-01      6.738E-01  
+        CJC        9.107E-12      4.305E-12  
+         RC        2.251E+00      1.445E+00  
+        RBM        1.500E+00      4.500E+00  
+         IS        9.432E-12      1.496E-11  
+        ISS        0.000E+00      0.000E+00  
+        VJS        6.738E-01      6.738E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VAC)    0.0000  (  VCC)   12.0000  (  VEE)  -12.0000  ( VOUT)    -.0037      
+
+(N00310)  -11.3590 (N00393)  -11.1330 (N00563)  -11.8750 (N00697)     .5513     
+
+(N00755)     .5523 (N00813)     .6445 (N00956)   11.0980 (N01096)   11.1470     
+
+(N01200)     .6013 (N01615)    -.0078 (N01664)    -.6157 (N01726)     .0015     
+
+(N01808)    -.0020 (N03379)   10.5250 (N03391)   11.2630 (N08317)  -11.9080     
+
+(N19945)    -.0185 (N24266)    9.4824 (N24278)    6.3216 (N002520)  -11.9080    
+
+(N005260)  -11.7490                   (N248370)    3.1608                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         3.299E-06
+    V_VEE       -2.482E-02
+    V_VCC       -5.606E-02
+
+    TOTAL POWER DISSIPATION   9.71E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/04/25 20:20:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simular
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .22
+

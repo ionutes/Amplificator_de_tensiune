@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-AC-Simulare"  [ C:\Users\drago\Desktop\Proiect 1 - Copy (2)\proiect1_test3-pspicefiles\schematic1\ac-simulare.sim ] 
+
+** Creating circuit file "AC-Simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\drago\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 200 10 100Meg
+.TEMP 0 20 70 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,11 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Dec 05 16:41:52 2025
+\t (00:00:00)         Host=LAPTOP-IONUTES User=Ionu? Pid=7280 CPUs=12
+\t (00:00:00) CmdLine= padstack_editor -mpssession Ionu? -file ./#Taaaaae09364.tmp -pname VIA-1 -data C:/Users/drago/AppData/Local/Temp/#Taaaaag09364.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\t (00:00:08)     Journal end - Fri Dec 05 16:42:00 2025

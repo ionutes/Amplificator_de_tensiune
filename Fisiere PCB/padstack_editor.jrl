@@ -1,0 +1,10 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Dec 05 17:53:00 2025
+\t (00:00:00)         Host=LAPTOP-IONUTES User=Ionu? Pid=16356 CPUs=12
+\t (00:00:00) CmdLine= padstack_editor -mpssession Ionu? -file ./#Taaaacv09364.tmp -pname C100M200K200-1 -data C:/Users/drago/AppData/Local/Temp/#Taaaacx09364.tmp
+\t (00:00:00) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\t (00:00:33)     Journal end - Fri Dec 05 17:53:33 2025

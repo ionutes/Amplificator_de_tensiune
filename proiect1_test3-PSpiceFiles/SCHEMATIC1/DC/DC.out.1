@@ -1,0 +1,76 @@
+
+**** 11/30/25 13:58:02 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DC"  [ C:\Users\drago\Desktop\Proiect 1\proiect1_test3-pspicefiles\schematic1\dc.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "DC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\drago\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT1_TEST3
+V_V1         VAC 0 DC 0Vdc AC 100mVac 
+R_R1         0 VAC  120k TC=0,0 
+V_VEE         0 VEE 12Vdc
+R_R2         VEE N002520  68 TC=0,0 
+R_R3         VEE N08317  68 TC=0,0 
+R_R4         N00563 N005260  10 TC=0,0 
+R_R5         VEE N00563  10 TC=0,0 
+R_R6         N00755 N00813  68 TC=0,0 
+R_R7         N00697 N00813  68 TC=0,0 
+R_R8         N00956 VCC  330 TC=0,0 
+R_R9         N01096 VCC  68 TC=0,0 
+R_R10         N01615 N01200  100 TC=0,0 
+R_R11         N01664 N01615  100 TC=0,0 
+R_R12         N01726 N01808  2k TC=0,0 
+R_R13         N01808 VOUT  1k TC=0,0 
+R_R15         0 VOUT  10 TC=0,0 
+D_D1         VCC N03391 D1N4148_1 
+D_D2         N03391 N03379 D1N4148_1 
+Q_Q1         N00813 N03379 N00956 BC856_1 
+Q_Q2         N01200 N03379 N01096 BC856_1 
+Q_Q3         VEE N01664 VOUT BC856_1 
+Q_Q5         N00393 VAC N00697 BC856_1 
+Q_Q6         N00310 N00310 N08317 BC846_1 
+Q_Q7         N00393 N00310 N002520 BC846_1 
+Q_Q8         N01664 N00393 N005260 BC846_1 
+Q_Q10         N01200 N19945 N01664 BC846_1 
+R_R14         0 N01726  1k TC=0,0 
+Q_Q13         VCC N01200 VOUT BC846_1 
+Q_Q14         N00310 N01726 N00755 BC856_1 
+V_VCC         VCC 0 12Vdc
+R_R17         N01615 N19945  1k TC=0,0 
+C_C1         N00393 N01664  100p  TC=0,0 
+R_R18         N24266 N03379  0 TC=0,0 
+-----------------------------$
+ERROR(ORPSIM-16144): Value may not be 0
+R_R19         N24278 N24266  180 TC=0,0 
+R_R23         N24278 N248370  120 TC=0,0 
+R_R24         N248370 0  0 TC=0,0 
+-------------------------$
+ERROR(ORPSIM-16144): Value may not be 0
+
+**** RESUMING DC.cir ****
+.END
+
