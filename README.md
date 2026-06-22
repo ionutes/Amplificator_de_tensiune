@@ -47,6 +47,7 @@ Amplificatorul îndeplinește următoarele caracteristici:
 
 * **OrCAD Capture & PSpice:** Pentru desenarea schemei și simulări.
 * **OrCAD PCB Editor:** Pentru realizarea layout-ului și generarea fișierelor de fabricație.
+* <img width="749" height="717" alt="image" src="https://github.com/user-attachments/assets/6db56002-5c1e-428d-a982-b10f83bbfffe" />
 * **Echipamente de laborator:** Osciloscop, generator de funcții, sursă de alimentare (urmează pentru etapa de testare).
 
 ## ✍️ Autor
