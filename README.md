@@ -38,10 +38,11 @@ Amplificatorul îndeplinește următoarele caracteristici:
 * **Simulări:** Analiza răspunsului în frecvență, stabilirea punctelor de funcționare, verificarea amplificării și a stabilității (PSpice).
 * **Proiectare PCB:** Realizarea layout-ului plăcii.
 * **Export pentru fabricație:** Generarea fișierelor Gerber și Drill.
-
-### 🚧 În Desfășurare (Urmează)
 * Asamblarea componentelor și testarea practică în laborator
+* <img width="3840" height="2160" alt="WhatsApp Image 2026-05-23 at 22 17 51" src="https://github.com/user-attachments/assets/ec54ec46-b7d4-42e2-96a8-8aa8a250a500" />
 * Măsurători și comparații între rezultatele teoretice / simulare / practică
+* <img width="1000" height="770" alt="image" src="https://github.com/user-attachments/assets/df7d536c-94d5-4905-ba22-a6ad652e22c4" />
+
 
 ## 🛠 Tehnologii și instrumente folosite
 
